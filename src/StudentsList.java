@@ -10,6 +10,7 @@ public class StudentsList {
         n = sc.nextInt();
         count = n;
         for (int i = 0; i < n; i++) {
+            stu[i] = new Students(0, "no name", "no gender", "no grade");
             stu[i].init();
         }
     }
